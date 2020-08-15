@@ -1,4 +1,4 @@
 # challenge2
 Git Challenge Week 2
-* Sydney Porter
+## Sydney Porter
 Work Portfolio
