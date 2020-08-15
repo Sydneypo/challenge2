@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Georgia, serif;
+}
+
+header {
+    background-image: url("./images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    padding: 20px 35px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    display: inline;
+}
+
+header h1 a {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    justify-content: flex-start;
+    display: inline;
+    text-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-img {
+    background-image: url("./images/sunset.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-attachment: fixed;
+    background-position: 80%;
+    width: 100%;
+    height: 650px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.position {
+    font-size: 50px;
+    padding: 50px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.abouttitle {
+    background-color: pink;
+    font-size: 36px;
+    font-weight: bold;
+    border-right: 4px solid #c61349;
+    color: #c61349;
+    margin: 20px 40px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+}
+
+.about-me p {
+    background-color: rebeccapurple;
+    margin: 20px;
+    display: inline-block;
+    
+}
